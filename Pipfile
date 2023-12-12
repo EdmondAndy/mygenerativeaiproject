@@ -10,7 +10,6 @@ black = "*"
 tiktoken = "*"
 openai = "*"
 pinecone-client = "*"
-unstructured = "*"
 nltk = "*"
 fastapi = "*"
 jinja2 = "*"
@@ -18,9 +17,11 @@ uvicorn = "*"
 streamlit = "*"
 streamlit-chat = "*"
 tqdm = "*"
+unstructured = {extras = ["pdf"], version = "*"}
+chromadb = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.11"
-python_full_version = "3.11.0"
+python_full_version = "3.11.6"
